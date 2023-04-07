@@ -16,7 +16,5 @@ public/js
 # Editor directories and files
 .idea
 .DS_Store
-.cpcache
-.clj-kondo/.cache
-.shadow-cljs
+/.*/
 target

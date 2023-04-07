@@ -1,10 +1,10 @@
 [package]
-name = "tauri-app"
-version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
-license = ""
-repository = ""
+name = "minny"
+version = "0.1.0"
+description = "A minion"
+authors = ["Kees"]
+license = "MIT"
+repository = "kees-/minny-mouse"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

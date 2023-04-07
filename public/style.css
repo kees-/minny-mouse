@@ -14,24 +14,26 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 100%;
+  transition: opacity 2s 1s ease-in;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
 .container {
-  margin: 0;
-  padding-top: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: center;
+  width: min-content;
+  margin: auto auto;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: 0.75s;
-}
-
-.logo.tauri:hover {
-  filter: drop-shadow(0 0 2em #24c8db);
 }
 
 .row {
@@ -78,10 +80,6 @@ button:hover {
 input,
 button {
   outline: none;
-}
-
-#greet-input {
-  margin-right: 5px;
 }
 
 @media (prefers-color-scheme: dark) {
